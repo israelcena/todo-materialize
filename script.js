@@ -51,4 +51,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   const datePicker = document.querySelectorAll('.datepicker')
   const modalDatePicker = M.Datepicker.init(datePicker, datePickerOptions)
+
+  const inputLimiter = document.querySelectorAll('input#title, textarea#body')
+  const inputsWithLimiter = M.CharacterCounter.init(inputLimiter);
 })
