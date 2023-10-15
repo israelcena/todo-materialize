@@ -1,7 +1,9 @@
 // designed for IsraelCena
 // https://github.com/israelcena/todo-materialize
 
-const afterAutocomplete = () => {
+const dateNow = Date.now()
+
+const onAutocomplete = () => {
   console.log(instance)
 }
 
