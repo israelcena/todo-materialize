@@ -8,7 +8,7 @@ const onAutocomplete = () => {
 }
 
 const sortFunction = (a, b, inputString) => {
-  return a.indexOf(inputString) - b.indexOf(inputString);
+  return a.indexOf(inputString) - b.indexOf(inputString)
 }
 
 const options = {
