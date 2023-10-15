@@ -114,6 +114,52 @@
       <!--  -->
 
     </div>
+    <div class="row">
+
+      <div class="fixed-action-btn" style="right: 50%; transform: translateX(50%);">
+        <a class="btn-floating btn-large waves-effect waves-light teal darken-1 modal-trigger" href="#modal1">
+          <i class="large material-icons">add</i>
+        </a>
+        <ul>
+          <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+          <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+          <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+          <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+        </ul>
+      </div>
+
+      <!-- Modal Structure -->
+      <div id="modal1" class="modal bottom-sheet" style="height: 90%;">
+        <div class="modal-content">
+          <h4 class="center-align" style="margin-bottom: 2rem;">Criar Novo Card</h4>
+          <form class="col s10 offset-s2">
+            <div class="row">
+              <div class="input-field col s6">
+                <input class="validate" type="text" name="card-title" id="card-title" />
+                <label for="card-title">Título para o card</label>
+              </div>
+              <div class="input-field col s4">
+                <input type="text" class="datepicker">
+                <label>Previsão de entrega</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s10">
+                <textarea class="materialize-textarea" name="card-body" id="card-body" cols="30" rows="10"></textarea>
+                <label>Texto do card</label>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button class="modal-close btn waves-effect waves-light" type="button" name="action">Enviar
+            <i class="material-icons right">send</i>
+          </button>
+        </div>
+      </div>
+
+    </div>
+
   </main>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
