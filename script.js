@@ -13,7 +13,7 @@ const sortFunction = (a, b, inputString) => {
 
 const options = {
   data: {
-    "apple":'https://placehold.it/250x250',
+    'apple': 'https://placehold.it/250x250',
   },
   limit: 5, 
   minLength: 2,
