@@ -29,7 +29,7 @@ const datePickerOptions = {
   autoClose: true,
   showMonthAfterYear: true,
   showDaysInNextAndPreviousMonths: true,
-  format: 'dddd, d !de mmmm !de yyyy',
+  format: 'dddd, d mmmm, yyyy', // !d doesn`t work
   i18n: {
     cancel: 'Cancelar',
     clear: 'Limpar',
